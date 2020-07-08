@@ -15,7 +15,7 @@
   </h2>
 </div>
 
-<form [formGroup]="checkoutForm" (*ngSubmit)="onSubmit(checkoutForm.value)">
+<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
 
   <div>
     <label for="name">
@@ -31,6 +31,6 @@
     <input id="address" type="text" formControlName="address">
   </div>
 
-  <button class="button" type="submit">Purchase, baby</button>
+  <button class="button" type="submit">Purchase</button>
 
 </form>

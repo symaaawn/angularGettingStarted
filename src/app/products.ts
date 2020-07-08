@@ -16,7 +16,7 @@ export const products = [
   },
   {
     name: 'Tablet',
-    price: 599,
+    price: 749,
     description: 'Tablet'
   }
 ];
